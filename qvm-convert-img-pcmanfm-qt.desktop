@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Action
+Name=Convert image in disposable qube
+Icon=gtk-convert
+Profiles=on_img;
+
+[X-Action-Profile on_img]
+MimeTypes=image/*;
+Exec=/usr/lib/qubes/qvm-actions.sh img %F
