@@ -1,3 +1,13 @@
+qubes-img-converter (1.2.19-1) unstable; urgency=medium
+
+  [ Marek Marczykowski-Górecki ]
+  * ci: drop R4.1, add R4.3
+
+  [ Aaron Rainbolt ]
+  * Add pcmanfm-qt integration
+
+ -- Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>  Fri, 10 Oct 2025 03:39:16 +0200
+
 qubes-img-converter (1.2.18-1) unstable; urgency=medium
 
   * rpm: mark packages as noarch
