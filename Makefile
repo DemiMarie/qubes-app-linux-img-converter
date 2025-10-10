@@ -54,6 +54,8 @@ install-vm:
 	install -D qimg-convert-client $(DESTDIR)/usr/lib/qubes/qimg-convert-client
 	install -d $(DESTDIR)/usr/share/nautilus-python/extensions
 	install -D qvm_convert_img_nautilus.py $(DESTDIR)/usr/share/nautilus-python/extensions/qvm_convert_img_nautilus.py
+	install -d $(DESTDIR)/usr/share/file-manager/actions
+	install -D qvm-convert-img-pcmanfm-qt.desktop $(DESTDIR)/usr/share/file-manager/actions
 	install -D qvm-convert-img.1  $(DESTDIR)/usr/share/man/man1/qvm-convert-img.1
 
 update-repo-current:
